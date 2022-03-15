@@ -1,0 +1,68 @@
+body {
+    font-family: "Hero", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    color: white;
+    background-color: #1f2937;
+    justify-content: space-evenly;
+}
+
+.header ul {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    list-style: none;
+    padding-left: 0;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.top {
+
+}
+
+.description {
+
+}
+
+.random {
+
+}
+
+.middle {
+
+}
+
+.image {
+
+}
+
+.testimonial {
+
+}
+
+.sign-up {
+
+}
+
+.action {
+
+}
+
+.footer {
+
+}
