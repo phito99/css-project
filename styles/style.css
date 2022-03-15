@@ -1,5 +1,6 @@
 body {
     font-family: "Hero", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0px;
 }
 
 .container {
@@ -9,9 +10,11 @@ body {
 
 .header{
     display: flex;
-    color: white;
+    color: #f9faf8;
+    font-size: 24px;
     background-color: #1f2937;
     justify-content: space-evenly;
+    margin: 0;
 }
 
 .header ul {
@@ -23,6 +26,8 @@ body {
 }
 
 .header a {
+    color: #e5e7eb;
+    font-size: 18px;
     text-decoration: none;
 }
 
@@ -32,15 +37,22 @@ body {
 }
 
 .top {
-
+    display: flex;
+    flex-direction: row;
+    color: #f9faf8;
+    font-size: 24px;
+    background-color: #1f2937;
 }
 
-.description {
-
+.description h1 {
+    font-size: 48px;
+    font-weight: 800;
 }
 
-.random {
-
+.random ul{
+    display: flex;
+    flex-direction: row;
+    /* list-style: none; */
 }
 
 .middle {
