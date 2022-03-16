@@ -60,6 +60,13 @@ body {
     /* list-style: none; */
 }
 
+
+button {
+    color: #e5e7eb;
+    background-color: #3882f6;
+    border-radius: 10rem;
+}
+
 .middle {
     flex: auto;
 }
