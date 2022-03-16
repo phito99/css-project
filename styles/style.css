@@ -1,11 +1,15 @@
 body {
     font-family: "Hero", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin: 0px;
+    min-height: 100vh;
+    justify-content: space-between;
 }
 
 .container {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
 }
 
 .header{
@@ -14,7 +18,7 @@ body {
     font-size: 24px;
     background-color: #1f2937;
     justify-content: space-evenly;
-    margin: 0;
+    flex: 0 1 auto;
 }
 
 .header ul {
@@ -42,6 +46,7 @@ body {
     color: #f9faf8;
     font-size: 24px;
     background-color: #1f2937;
+    flex: auto;
 }
 
 .description h1 {
@@ -56,7 +61,7 @@ body {
 }
 
 .middle {
-
+    flex: auto;
 }
 
 .image {
@@ -64,6 +69,7 @@ body {
 }
 
 .testimonial {
+    background-color: #e5e7eb;
 
 }
 
@@ -76,5 +82,11 @@ body {
 }
 
 .footer {
-
+    height: 60px;
+    display: flex;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    justify-content: center;
+    align-items: center;
+    flex: 0 1 auto;
 }
